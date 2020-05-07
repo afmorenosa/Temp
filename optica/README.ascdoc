@@ -1,0 +1,29 @@
+= Simulación de Optica
+
+Andŕes Felipe Moreno Sarria <afmorenosa@unal.edu.co>
+v0.1, 2020-01-01
+
+== Nota
+
+Profesor Yobani, no entendí bien el segundo punto de la tarea, no sabía bien que
+gráfica era la que tocaba hacer, así que en cambio hice una simulación de la
+situación, con un pequeño error en el rayo transmitido que aún no encuentro,
+espero que no haya ningún inconveniente.
+
+== Simulación
+
+Se simula un rayo incidente polarizado circularmente a izquierda, que incide en
+una interfase plana entre aire y vidrio, con coeficientes de refracción n=1 y
+n=1.5, el cual incide con un ángulo de 30° con respecto a la horizontal,
+teniendo esto, se genera un código que utiliza el campo cómo referencia, para el
+análisis de la onda electromagnética, teniendo en cuenta lo trabajado en el
+archivo pdf.
+
+Este genera tres videos, lo cuales ilustran la situación visto desde tres
+perspectivas distintas.
+
+== Software necesario
+
+Para correr la simulación es necesario python, con los siguientes paquetes:
+
+* matplotlib
